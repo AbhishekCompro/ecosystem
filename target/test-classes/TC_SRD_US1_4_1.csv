@@ -1,0 +1,9 @@
+Sl No.,Status (Active/Inactive),Component (Exact Component name),Expected Result on Click
+1,Active,Home,Component is launched
+6,Inactive,myAssignments ,Alert message is displayed
+2,Active,Student eEdition,Component is launched
+5,Active,Connect to NG,Component is launched
+3,Active,Maps and Graphs,Component is launched
+4,Active,Digital Library,Component is launched
+7,Inactive,Global Search,Alert message is displayed
+8,Active,Student Resources,Component is launched

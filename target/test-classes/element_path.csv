@@ -1,0 +1,64 @@
+Element_name,Large,Medium_landscape,Medium_portrait,Small
+home_dropdown,//button[@type='button'],//button[@type='button'],//button[@type='button'],//button[@type='button']
+dl_link,//section[@id='row2']/div/h3,//section[@id='row2']/div/h3,//section[@id='row2']/div/h3,//section[@id='row2']/div/h3
+mag_link,//section[@id='row2']/div[2]/h3,//section[@id='row2']/div[2]/h3,//section[@id='row2']/div[2]/h3,//section[@id='row2']/div[2]/h3
+mag_image,//section[@id='row2']/div[2]/div/img,//section[@id='row2']/div[2]/div/img,//section[@id='row2']/div[2]/div/img,//section[@id='row2']/div[2]/div/img
+student_tools,//div[@class='student-tools-container container-height'],//div[@class='student-tools-container container-height'],//div[@class='student-tools-container container-height'],//div[@class='student-tools-container container-height']
+search_button,(//button[@type='button'])[2],(//button[@type='button'])[2],(//button[@type='button'])[2],//button[@type='button']
+help_button,//div[@class='content-container']/div[3],//div[@class='content-container']/div[3],//div[@class='content-container']/div[3],//li[@class='menu-buttons']/div
+profile_button,(//button[@type='button'])[3],(//button[@type='button'])[3],(//button[@type='button'])[3],//button[@type='button']
+sign_out,button.logout-ctrl,button.logout-ctrl,button.logout-ctrl,div.icon.logout-ctrl
+profile_student_info,//ul[@class='dropdown-menu list-group']/li[2]/div[3],//ul[@class='dropdown-menu list-group']/li[2]/div[3],//ul[@class='dropdown-menu list-group']/li[2]/div[3],//ul[@class='menu-body']/li[10]/div[3]
+profile_class,//ul[@class='dropdown-menu list-group']/li[3]/div[3],//ul[@class='dropdown-menu list-group']/li[3]/div[3],//ul[@class='dropdown-menu list-group']/li[3]/div[3],//ul[@class='menu-body']/li[11]/div[3]
+dl_carousal,//section[@id='row2']/div,//section[@id='row2']/div,//section[@id='row2']/div,//section[@id='row2']/div
+eEdition_label,//div[@class='unit-chooser']/div/div/h3,//div[@class='unit-chooser']/div/div/h3,//div[@class='unit-chooser']/div/div/h3,//div[@class='unit-chooser']/div/div/h3
+home,//li/a/,//li/a/,//li/a/,//li[2]/a/
+student_eEdition_dropdown,//li[2]/a/,//li[2]/a/,//li[2]/a/,//li[3]/a/
+mag_dropdown,//li[3]/a/,//li[3]/a/,//li[3]/a/,//li[4]/a/
+dl_dropdown,//li[4]/a/,//li[4]/a/,//li[4]/a/,//li[5]/a/
+connect_ng_dropdown,//li[5]/a/,//li[5]/a/,//li[5]/a/,//li[6]/a/
+myassign_dropdown,//li[6]/a/,//li[6]/a/,//li[6]/a/,//li[7]/a/
+gsearch_dropdown,//li[7]/a/,//li[7]/a/,//li[7]/a/,//li[8]/a/
+srd_dropdown,//li[8]/a/,//li[8]/a/,//li[8]/a/,//li[9]/a/
+rd_header,//div[@class='resource-directory']/header/div/div/h1,//div[@class='resource-directory']/header/div/div/h1,//div[@class='resource-directory']/header/div/div/h1,
+dl_header,//div[@class='row-fluid digitalLibrary']/div[4]/header,//div[@class='row-fluid digitalLibrary']/div[4]/header,//div[@class='row-fluid digitalLibrary']/div[4]/header,//div[@class='row-fluid digitalLibrary']/header
+connect_to_ng_header,//div[@class='connect-to-ng']/header/h1,//div[@class='connect-to-ng']/header/h1,//div[@class='connect-to-ng']/header/h1,//div[@class='connect-to-ng']/header/h1
+srd_icon,div.nav-icon.student-resources,div.nav-icon.student-resources,div.nav-icon.student-resources,div.nav-icon.student-resources
+search_placeholder,search-myNGconnect,search-myNGconnect,search-myNGconnect,search-myNGconnect
+profile_close,i.remove-icon.custom-tooltip,i.remove-icon.custom-tooltip,i.remove-icon.custom-tooltip,i.remove-icon.custom-tooltip
+terms_link,Terms of Use & Privacy Policy,Terms of Use & Privacy Policy,Terms of Use & Privacy Policy,Terms of Use & Privacy Policy
+imt_icon,div.nav-icon.maps-graphs,div.nav-icon.maps-graphs,div.nav-icon.maps-graphs,div.nav-icon.maps-graphs
+connect_ng_icon,div.nav-icon.connect-to-ng-comp,div.nav-icon.connect-to-ng-comp,div.nav-icon.connect-to-ng-comp,div.nav-icon.connect-to-ng-comp
+myassignment_icon,div.nav-icon.my-assignments,div.nav-icon.my-assignments,div.nav-icon.my-assignments,div.nav-icon.my-assignments
+srd_page_header,//html//body/div/div/div/div[3]/div/header/div/div/h1,//html//body/div/div/div/div[3]/div/header/div/div/h1,//html//body/div/div/div/div[3]/div/header/div/div/h1,//body/div/div/div/div[3]/div/header/div/div/h1
+srd_li,//li[8],//li[8],//li[8],//li[9]
+home_li,//li[1],//li[1],//li[1],//li[2]
+srd_i_icon,//body//div//div//div//div[3]//div//header//div//div//div//a,//body//div//div//div//div[3]//div//header//div//div//div//a,//body//div//div//div//div[3]//div//header//div//div//div//a,//body//div//div//div//div[3]//div//header//div//div//div//a
+srd_unit4,//body//div//div//div//div[3]//div//div//section//div//ol//li[4]//div,//body//div//div//div//div[3]//div//div//section//div//ol//li[4]//div,//body//div//div//div//div[3]//div//div//section//div//ol//li[4]//div,//body//div//div//div//div[3]//div//div//section//div//ol//li[4]//div
+srd_unit1,//body//div//div//div//div[3]//div//div//section//div//ol//li[1]//div,//body//div//div//div//div[3]//div//div//section//div//ol//li[1]//div,//body//div//div//div//div[3]//div//div//section//div//ol//li[1]//div,//body//div//div//div//div[3]//div//div//section//div//ol//li[1]//div
+srd_chapter1,//body/div/div/div/div[3]/div/div/section/div/ol/li/ol/li/div,//body/div/div/div/div[3]/div/div/section/div/ol/li/ol/li/div,//body/div/div/div/div[3]/div/div/section/div/ol/li/ol/li/div,//body/div/div/div/div[3]/div/div/section/div/ol/li/div
+srd_ch1_guided_writing,//body/div/div/div/div[3]/div/div/section/div/ol/li/ol/li/ol/li/div,//body/div/div/div/div[3]/div/div/section/div/ol/li/ol/li/ol/li/div,//body/div/div/div/div[3]/div/div/section/div/ol/li/ol/li/ol/li/div,//body/div/div/div/div[3]/div/div/section/div/ol/li/div
+abt_student_res,//body//div//div//div//div[3]//div//div//section[2]//div//h3,//body//div//div//div//div[3]//div//div//section[2]//div//h3,//body//div//div//div//div[3]//div//div//section[2]//div//h3,//body/div/div/div/div[3]/div/header/div/div/div/div/div[2]/h3
+srd_root,//div[@class='resource-directory']//div[@class='resource-tree']/ol/li,//div[@class='resource-directory']//div[@class='resource-tree']/ol/li,//div[@class='resource-directory']//div[@class='resource-tree']/ol/li,//div[@class='resource-directory']//div[@class='resource-tree']/ol/li
+brcm_size,//body/div/div/div/div[3]/div/header/div[2]/div[2]/ul/li,//body/div/div/div/div[3]/div/header/div[2]/div[2]/ul/li,//body/div/div/div/div[3]/div/header/div[2]/div[2]/ul/li,//body/div/div/div/div[3]/div/header/div[2]/div[2]/ul/li
+srd_resource_viewer,//div[@class='fancybox-overlay fancybox-overlay-fixed'],//div[@class='fancybox-overlay fancybox-overlay-fixed'],//div[@class='fancybox-overlay fancybox-overlay-fixed'],//div[@class='fancybox-overlay fancybox-overlay-fixed']
+srd_list_view,//div[@id='dashboardViewStack']/div[3]/div/header/div[3],//div[@id='dashboardViewStack']/div[3]/div/header/div[3],//div[@id='dashboardViewStack']/div[3]/div/header/div[3],//div[@id='dashboardViewStack']/div[3]/div/header/div[3]
+srd_grid_view,//div[@id='dashboardViewStack']/div[3]/div/header/div[4],//div[@id='dashboardViewStack']/div[3]/div/header/div[4],//div[@id='dashboardViewStack']/div[3]/div/header/div[4],//div[@id='dashboardViewStack']/div[3]/div/header/div[4]
+srd_list_enabled,//div[@id='dashboardViewStack']/div[3]/div/header//div[@class='layout-btn list-view resource-directory-sprite enabled layout-active'],//div[@id='dashboardViewStack']/div[3]/div/header//div[@class='layout-btn list-view resource-directory-sprite enabled layout-active'],//div[@id='dashboardViewStack']/div[3]/div/header//div[@class='layout-btn list-view resource-directory-sprite enabled layout-active'],//div[@id='dashboardViewStack']/div[3]/div/header//div[@class='layout-btn list-view resource-directory-sprite enabled layout-active']
+srd_grid_enabled,,,,
+srd_breadcrum,//div[@class='bread-crumb']/ul[@class='breadcrumb']/span[@class='ellip'],//div[@class='bread-crumb']/ul[@class='breadcrumb']/span[@class='ellip'],//div[@class='bread-crumb']/ul[@class='breadcrumb']/span[@class='ellip'],//div[2][@class='bread-crumb']/ul[@class='breadcrumb']
+srd_res_container,//div/section[@class='span9 resource-list-container']//div[@class='grid-list-container'],//div/section[@class='span9 resource-list-container']//div[@class='grid-list-container'],//div/section[@class='span9 resource-list-container']//div[@class='grid-list-container'],//div/section[@class='span9 resource-list-container']//div[@class='grid-list-container']
+srd_resource_container,//div[@class='sections-container row-fluid']//div[@class='grid-list'],//div[@class='sections-container row-fluid']//div[@class='grid-list'],//div[@class='sections-container row-fluid']//div[@class='grid-list'],//body/div/div/div/div[3]/div/div/section[2]/div
+dropdown_list_container,//body/header/div/div[2]/div/div/ul,//body/header/div/div[2]/div/div/ul,//body/header/div/div[2]/div/div/ul,//li[@class='menu-body-wrapper']//ul[@class='menu-body']
+resource_tree_container,//body/div/div/div/div[3]/div/div/section/div,//body/div/div/div/div[3]/div/div/section/div,//body/div/div/div/div[3]/div/div/section/div,//body/div/div/div/div[3]/div/div/section/div
+srd_topband_container,//body//header[@class='row-fluid container-padding']//div[@class='ecosystem-header app-shadow'],//body//header[@class='row-fluid container-padding']//div[@class='ecosystem-header app-shadow'],//body//header[@class='row-fluid container-padding']//div[@class='ecosystem-header app-shadow'],//body//header[@class='row-fluid container-padding']//div[@class='ecosystem-header app-shadow']
+srd_container,//div[@class='resource-directory'],//div[@class='resource-directory'],//div[@class='resource-directory'],//div[@class='resource-directory']//div[@class='resource-tree']
+srd_header_container,//div[@class='resource-directory']/header,//div[@class='resource-directory']/header,//div[@class='resource-directory']/header,//div[@class='resource-directory']/header
+srd_instructions_container,//div[@class='resource-directory']//div[@class='instructions-container'],//div[@class='resource-directory']//div[@class='instructions-container'],//div[@class='resource-directory']//div[@class='instructions-container'],//div[@class='dropdown-menu instruction-text-container']//div[2]
+srd_tree_container,//div[@class='resource-directory']//div[@class='resource-tree'],//div[@class='resource-directory']//div[@class='resource-tree'],//div[@class='resource-directory']//div[@class='resource-tree'],//div[@class='resource-directory']//div[@class='resource-tree']
+srd_footer,//div[@id='ecosystem-footer'],//div[@id='ecosystem-footer'],//div[@id='ecosystem-footer'],//div[@id='ecosystem-footer']
+srd_information_icon,,,,//div[@class='resource-directory']//div[@class='information-icon']/a
+resourceId,8aa85eb0-42bbf85a-0142-bc1957db-0355,8aa85eb0-42bbf85a-0142-bc1957db-0355,8aa85eb0-42bbf85a-0142-bc1957db-0355,8aa85eb0-42bbf85a-0142-bc1957db-0355
+srd_i_icon_highlighted,,,,//div[@class='resource-directory']//div[@class='information-icon open']/a
+information_popup_close,,,,//div[@class='resource-directory']//div[@class='information-icon open']//div[@class='close-btn resource-directory-sprite']
+srd_back_btn,,,,//div/header/div[2]/div[@class='breadcrumb-back-btn']

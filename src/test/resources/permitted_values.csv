@@ -1,0 +1,13 @@
+STUDENT_INFO,COMP_OPTIONS,UNITS,UNIT_TITLE,PAGE_NUMBER,CLASS_NAME,SCREENSHOTS_PATH
+Student: Test Student1,Home,1,The Essentials of Geography,8,WCG - Survey,F:/screenshots/Home/
+School: NGL Training Demo School QA,Student eEdition,2,North America,74,,
+District: NAT GEO LEARNING TRAINING DEMO,Maps and Graphs,3,Central America & the Caribbean,138,,
+,Digital Library,4,South America,186,,
+,Connect to NG,5,Europe,242,,
+,myAssignments,6,Russia & the Eurasian Republics,306,,
+,Global Search,7,Sub-Saharan Africa,,,
+,Student Resources,8,Southwest Asia & North Africa,,,
+,,9,South Asia,,,
+,,10,East Asia,,,
+,,11,Southeast Asia,,,
+,,12,"Australia"","" the Pacific Realm & Antarctica",,,

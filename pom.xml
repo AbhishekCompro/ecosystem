@@ -1,0 +1,100 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>NGC</groupId>
+  <artifactId>myNGC</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>myNGC</name>
+  <url>http://maven.apache.org</url>
+  
+   <!-- dependencies -->
+  
+  <dependencies>
+  <dependency>
+	<groupId>org.seleniumhq.selenium</groupId>
+	<artifactId>selenium-server</artifactId>
+	<version>2.37.0</version>
+</dependency>
+<dependency>
+	<groupId>junit</groupId>
+	<artifactId>junit</artifactId>
+	<version>4.11</version>
+</dependency>
+<dependency>
+  <groupId>org.monte</groupId>
+  <artifactId>monte-screen-recorder</artifactId>
+  <version>0.7.7</version>
+</dependency>
+<dependency>
+     <groupId>com.saucelabs.saucerest</groupId>
+      <artifactId>SauceREST</artifactId>
+      <version>1.0</version>   
+      <scope>system</scope>
+    <systemPath>\\\\Nas1/qaserver/NGConnect/Functional Automation/SeleniumScripts/lib/SauceREST.jar</systemPath>       	
+    </dependency>
+    <dependency>
+     <groupId>framework</groupId>
+      <artifactId>TestFramework</artifactId>
+      <version>1.0.1</version>   
+      <scope>system</scope>
+    <systemPath>\\\\Nas1/qaserver/NGConnect/Functional Automation/SeleniumScripts/lib/TestFramework1.2.jar</systemPath>       	
+    </dependency>
+    <dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-surefire-plugin</artifactId>
+  <version>2.16</version>
+  <type>maven-plugin</type>
+</dependency>
+ </dependencies>
+ 
+ <!-- build -->
+ 
+ <build>
+   <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+                <source>1.7</source>
+                <target>1.7</target>
+                <showDeprecation>true</showDeprecation>
+                <showWarnings>true</showWarnings>
+                <executable>C:/Program Files/Java/jdk1.7.0_05/bin/javac</executable>
+                <fork>true</fork>
+                <includes>
+                	 <include>D:\workspace_d\myNGC\src\test\java\WCG\temp\SRD_WCG_TX_US7.java</include>                
+                </includes>
+        </configuration>
+    </plugin>
+ <plugin>
+   <groupId>org.apache.maven.plugins</groupId>
+   <artifactId>maven-surefire-plugin</artifactId>
+   <version>2.5</version>
+	</plugin>
+	</plugins>
+	 <directory>target</directory>
+    <outputDirectory>target/classes</outputDirectory>
+    <sourceDirectory>src</sourceDirectory>
+     <testOutputDirectory>target/test-classes</testOutputDirectory>
+    <testSourceDirectory>${project.basedir}/src/test/java/WCG/temp</testSourceDirectory>
+    <resources>
+      <resource>
+        <directory>src/test/config</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+  </build>  
+  
+   <!-- reporting -->
+  	<reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-report-plugin</artifactId>
+        <version>2.16</version>
+        <configuration>
+          <outputName>piyush</outputName>
+          <outputDirectory>${project.build.directory}/site</outputDirectory>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+</project>
